@@ -12,7 +12,7 @@ import java.util.*;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    //Spring validation dan fırlatılan hataları alıp yönetmek ve adam akıllı response dönmek.
+    //Spring validation dan fırlatılan hataları alıp yönetmek ve düzgün response dönmek.
     private List<String> addMapValue(List<String> list, String newValue) {
         list.add(newValue);
         return list;
